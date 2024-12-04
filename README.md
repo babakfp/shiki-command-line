@@ -2,7 +2,9 @@
 
 A highlighter built with Shiki for the command line.
 
-- 🪵 [CHANGELOG](/CHANGELOG.md)
+-   📦 [NPM](https://npmjs.com/package/shiki-command-line)
+-   😺 [GitHub](https://github.com/babakfp/shiki-command-line)
+-   🪵 [CHANGELOG](/CHANGELOG.md)
 
 ## Install
 

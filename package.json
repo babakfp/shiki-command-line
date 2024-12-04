@@ -1,7 +1,7 @@
 {
     "name": "shiki-command-line",
     "description": "A highlighter built with Shiki for the command line.",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "license": "MIT",
     "scripts": {
         "dev": "rimraf dist && tsc -w",
