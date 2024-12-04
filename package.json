@@ -1,0 +1,42 @@
+{
+    "name": "shiki-command-line",
+    "description": "A highlighter built with Shiki for the command line.",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "dev": "rimraf dist && tsc -w",
+        "build": "rimraf dist && tsc",
+        "prepublishOnly": "rimraf dist && tsc",
+        "format": "prettier -w ."
+    },
+    "devDependencies": {
+        "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
+        "@types/node": "^22.10.1",
+        "prettier": "^3.4.2",
+        "rimraf": "^6.0.1",
+        "typescript": "^5.7.2"
+    },
+    "repository": "github:babakfp/shiki-command-line",
+    "main": "./dist/index.js",
+    "files": [
+        "./dist/"
+    ],
+    "exports": {
+        ".": "./dist/index.js"
+    },
+    "keywords": [
+        "shiki",
+        "highlighter",
+        "command-line",
+        "cli",
+        "console",
+        "terminal",
+        "highlight",
+        "syntax"
+    ],
+    "type": "module",
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "shiki": "^1.24.0"
+    }
+}
