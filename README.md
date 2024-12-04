@@ -1,6 +1,14 @@
 # Shiki Command Line
 
+[![NPM](https://img.shields.io/npm/v/shiki-command-line?style=for-the-badge&label=NPM&color=%23cb0000)](https://npmjs.com/package/shiki-command-line)
+
 A highlighter built with Shiki for the command line.
+
+- 🪵 [CHANGELOG](/CHANGELOG.md)
+- 📦 [NPM](https://npmjs.com/package/shiki-command-line)
+- 😺 [GitHub](https://github.com/babakfp/shiki-command-line)
+
+## Install
 
 ```bash
 pnpm add shiki-command-line
@@ -12,6 +20,8 @@ pnpm add shiki-command-line
 import { highlightCode } from "shiki-command-line"
 ```
 
+---
+
 ```js
 console.log(
     await highlightCode("<div>Hello, World!</div>", {
@@ -22,6 +32,8 @@ console.log(
 ```
 
 ![](/assets/html.png)
+
+---
 
 ```js
 console.log(
@@ -38,6 +50,8 @@ console.log(
 ```
 
 ![](/assets/css.png)
+
+---
 
 ```js
 console.log(
