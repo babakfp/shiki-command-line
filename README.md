@@ -1,12 +1,8 @@
-[![NPM version](https://img.shields.io/npm/v/shiki-command-line?style=for-the-badge&label=NPM&color=%23cb0000)](https://www.npmjs.com/package/shiki-command-line "View on NPM")
-
 # Shiki Command Line
 
 A highlighter built with Shiki for the command line.
 
--   📦 [NPM](https://www.npmjs.com/package/shiki-command-line)
--   😺 [GitHub](https://github.com/babakfp/shiki-command-line)
--   🪵 [CHANGELOG](/CHANGELOG.md)
+- 🪵 [CHANGELOG](/CHANGELOG.md)
 
 ## Install
 
